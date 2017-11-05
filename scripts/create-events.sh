@@ -14,7 +14,6 @@ curl "${API}${URL_PATH}" \
       "name": "'"${NAME}"'",
       "start_date": "'"${START_DATE}"'",
       "end_date": "'"${END_DATE}"'",
-      "date": "'"{DATE}"'",
       "info": "'"${INFO}"'"
     }
   }'

@@ -12,7 +12,7 @@ curl "${API}${URL_PATH}" \
     "appointment": {
       "name": "'"${NAME}"'",
       "lastname": "'"${LAST_NAME}"'",
-      "email": "'"{EMAIL}"'",
+      "email": "'"${EMAIL}"'",
       "date": "'"${DATE}"'",
       "provider_id": "'"${PROVIDER_ID}"'"
     }
